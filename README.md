@@ -56,14 +56,6 @@ parking-system/
 │   └── add_activity_log.sql # migration for existing installs
 ```
 
-## Setup (XAMPP / WAMP / LAMP)
-
-1. Visit `http://localhost/parking-system/auth/login.php` in your browser.
-2. Log in with:
-   - **Username:** `admin`
-   - **Password:** `admin123`
-3. Change the password immediately from the **Settings** page.
-
 ## Security notes
 
 - Passwords are hashed with bcrypt (`password_hash` / `password_verify`), never stored in plain text.
